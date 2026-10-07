@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="12" viewBox="0 0 1000 12" preserveAspectRatio="none" role="img" aria-label="divider">
+<defs><linearGradient id="g" x1="0" x2="1">
+<stop offset="0" stop-color="#ff3ea5"/><stop offset=".33" stop-color="#2ed3ff"/><stop offset=".66" stop-color="#b48cff"/><stop offset="1" stop-color="#ff3ea5"/>
+</linearGradient></defs>
+<style>
+.m{animation:s 8s linear infinite}
+@keyframes s{to{transform:translateX(-1000px)}}
+.a{animation:f 3.1s steps(1) infinite}.b{animation:f 4.3s steps(1) infinite .8s}.c{animation:f 5.2s steps(1) infinite 1.6s}
+@keyframes f{0%,100%{opacity:.85}38%{opacity:0}41%{opacity:.85}72%{opacity:.15}75%{opacity:.85}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g class="m"><rect x="0" y="5" width="1000" height="2" fill="url(#g)"/><rect x="1000" y="5" width="1000" height="2" fill="url(#g)"/></g>
+<rect class="a" x="60" y="1" width="70" height="2" fill="#ff3ea5"/>
+<rect class="b" x="240" y="9" width="40" height="2" fill="#2ed3ff"/>
+<rect class="c" x="420" y="1" width="110" height="2" fill="#b48cff"/>
+<rect class="a" x="610" y="9" width="60" height="2" fill="#f2b84b"/>
+<rect class="b" x="800" y="1" width="90" height="2" fill="#2ed3ff"/>
+<rect class="c" x="930" y="9" width="45" height="2" fill="#ff3ea5"/>
+</svg>

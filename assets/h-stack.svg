@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="44" viewBox="0 0 180 44" role="img" aria-label="// STACK">
+<style>
+text{font:900 21px 'Arial Black','Helvetica Neue',Arial,sans-serif;letter-spacing:3px}
+.p{fill:#ff3ea5;animation:gp 4s steps(1) infinite}
+.c{fill:#2ed3ff;animation:gc 4s steps(1) infinite}
+.s{animation:sc 4s steps(1) infinite}
+@keyframes gp{0%,100%{transform:translate(-2px,0)}90%{transform:translate(-6px,1px)}93%{transform:translate(2px,-1px)}96%{transform:translate(-2px,0)}}
+@keyframes gc{0%,100%{transform:translate(2px,0)}90%{transform:translate(6px,-1px)}93%{transform:translate(-2px,1px)}96%{transform:translate(2px,0)}}
+@keyframes sc{0%,89%,94%,100%{opacity:0}90%{opacity:.9}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="180" height="44" rx="8" fill="#0d0d12"/>
+<rect x="0" y="40" width="180" height="4" rx="2" fill="#ff3ea5" opacity=".85"/>
+<text x="18" y="30" class="p">// STACK</text>
+<text x="18" y="30" class="c">// STACK</text>
+<text x="18" y="30" fill="#f6f6f8">// STACK</text>
+<rect class="s" x="10" y="17" width="160" height="3" fill="#2ed3ff"/>
+</svg>
