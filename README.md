@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/0xSneaks?tab=repositories"><img src="https://img.shields.io/badge/repos-0xSneaks-ff3ea5?style=for-the-badge&labelColor=0d0d12&logo=github&logoColor=white" alt="Repositories"></a>
-  <a href="https://x.com/phantomcap_ai"><img src="https://img.shields.io/badge/X-@phantomcap__ai-2ed3ff?style=for-the-badge&labelColor=0d0d12&logo=x&logoColor=white" alt="X: @phantomcap_ai"></a>
+  <a href="https://x.com/heysneaks"><img src="https://img.shields.io/badge/X-@heysneaks-2ed3ff?style=for-the-badge&labelColor=0d0d12&logo=x&logoColor=white" alt="X: @heysneaks"></a>
   <a href="https://chromaspider.vercel.app"><img src="https://img.shields.io/badge/demo-chromaspider-b48cff?style=for-the-badge&labelColor=0d0d12" alt="ChromaSpider live demo"></a>
 </p>
 
