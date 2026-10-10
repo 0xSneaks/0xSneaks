@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">SNEAKS — animated neural map</title>
+  <desc id="desc">A monochrome constellation of drifting nodes and connections framing the word SNEAKS.</desc>
+  <defs>
+    <radialGradient id="fade" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <style>
+      .line{stroke:#fff;stroke-width:1;opacity:.14;stroke-linecap:round}
+      .node{fill:#fff;opacity:.74}
+      .ghost{fill:#fff;opacity:.16;filter:url(#soft)}
+      .pulse{animation:pulse 3.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .pulse2{animation:pulse 5.2s ease-in-out infinite 1.1s;transform-box:fill-box;transform-origin:center}
+      .dash{stroke-dasharray:5 12;animation:flow 10s linear infinite}
+      .dash2{stroke-dasharray:3 14;animation:flow 14s linear infinite reverse}
+      .float1{animation:float1 8s ease-in-out infinite}
+      .float2{animation:float2 11s ease-in-out infinite}
+      .scan{animation:scan 7s linear infinite}
+      .cursor{animation:blink 1.1s steps(2,end) infinite}
+      @keyframes pulse{0%,100%{opacity:.3;transform:scale(.72)}50%{opacity:1;transform:scale(1.25)}}
+      @keyframes flow{to{stroke-dashoffset:-120}}
+      @keyframes float1{0%,100%{transform:translate(0,0)}50%{transform:translate(8px,-5px)}}
+      @keyframes float2{0%,100%{transform:translate(0,0)}50%{transform:translate(-7px,6px)}}
+      @keyframes scan{0%{transform:translateX(-220px);opacity:0}10%{opacity:.22}90%{opacity:.22}100%{transform:translateX(1450px);opacity:0}}
+      @keyframes blink{50%{opacity:0}}
+      @media (prefers-reduced-motion:reduce){.pulse,.pulse2,.dash,.dash2,.float1,.float2,.scan,.cursor{animation:none}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" fill="#050505"/>
+  <rect width="1200" height="360" fill="url(#fade)"/>
+
+  <g class="float1">
+    <path class="line dash" d="M22 82 L126 118 L218 60 L326 132 L430 82 L544 138 L662 62 L780 126 L900 70 L1015 124 L1174 72"/>
+    <path class="line" d="M70 274 L170 226 L278 290 L390 214 L512 278 L630 220 L742 292 L866 216 L980 282 L1134 226"/>
+    <path class="line dash2" d="M126 118 L170 226 M218 60 L278 290 M326 132 L390 214 M430 82 L512 278 M544 138 L630 220 M662 62 L742 292 M780 126 L866 216 M900 70 L980 282 M1015 124 L1134 226"/>
+    <path class="line" d="M22 82 L70 274 M1174 72 L1134 226 M218 60 L430 82 L662 62 L900 70 L1174 72 M170 226 L390 214 L630 220 L866 216 L1134 226"/>
+  </g>
+
+  <g class="float2">
+    <path class="line" d="M48 176 L126 118 L170 226 L48 176 Z M326 132 L278 290 L390 214 L326 132 Z M544 138 L512 278 L630 220 L544 138 Z M780 126 L742 292 L866 216 L780 126 Z M1015 124 L980 282 L1134 226 L1015 124 Z"/>
+  </g>
+
+  <g>
+    <circle class="ghost pulse" cx="126" cy="118" r="13"/>
+    <circle class="node pulse" cx="126" cy="118" r="3.5"/>
+    <circle class="node pulse2" cx="218" cy="60" r="2.5"/>
+    <circle class="node pulse" cx="326" cy="132" r="3"/>
+    <circle class="node pulse2" cx="430" cy="82" r="2.5"/>
+    <circle class="ghost pulse2" cx="544" cy="138" r="11"/>
+    <circle class="node pulse2" cx="544" cy="138" r="3.2"/>
+    <circle class="node pulse" cx="662" cy="62" r="2.8"/>
+    <circle class="node pulse2" cx="780" cy="126" r="3"/>
+    <circle class="node pulse" cx="900" cy="70" r="2.4"/>
+    <circle class="ghost pulse" cx="1015" cy="124" r="12"/>
+    <circle class="node pulse" cx="1015" cy="124" r="3.4"/>
+    <circle class="node pulse2" cx="1174" cy="72" r="2.5"/>
+
+    <circle class="node pulse2" cx="70" cy="274" r="2.5"/>
+    <circle class="ghost pulse" cx="170" cy="226" r="10"/>
+    <circle class="node pulse" cx="170" cy="226" r="3"/>
+    <circle class="node pulse2" cx="278" cy="290" r="2.4"/>
+    <circle class="node pulse" cx="390" cy="214" r="3"/>
+    <circle class="node pulse2" cx="512" cy="278" r="2.5"/>
+    <circle class="ghost pulse2" cx="630" cy="220" r="12"/>
+    <circle class="node pulse2" cx="630" cy="220" r="3.2"/>
+    <circle class="node pulse" cx="742" cy="292" r="2.4"/>
+    <circle class="node pulse2" cx="866" cy="216" r="3"/>
+    <circle class="node pulse" cx="980" cy="282" r="2.4"/>
+    <circle class="node pulse2" cx="1134" cy="226" r="3"/>
+  </g>
+
+  <g opacity=".95">
+    <rect x="346" y="126" width="508" height="104" rx="2" fill="#050505" fill-opacity=".78" stroke="#fff" stroke-opacity=".12"/>
+    <text x="600" y="181" fill="#fff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="56" font-weight="700" letter-spacing="16">SNEAKS</text>
+    <text x="600" y="210" fill="#fff" fill-opacity=".55" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="3">BUILD // SHIP // EXPERIMENT</text>
+    <rect class="cursor" x="842" y="198" width="7" height="15" fill="#fff" fill-opacity=".72"/>
+  </g>
+
+  <g fill="#fff" fill-opacity=".28" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" letter-spacing="1.2">
+    <text x="24" y="28">0xSNEAKS / SIGNAL_MAP</text>
+    <text x="1020" y="338">STATUS: BUILDING</text>
+  </g>
+
+  <rect class="scan" x="0" y="0" width="90" height="360" fill="#fff" fill-opacity=".025"/>
+</svg>
