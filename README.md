@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="SNEAKS" width="100%">
+  <img src="assets/banner-centered.png" alt="SNEAKS" width="100%">
 </p>
 
 <p align="center">
@@ -90,6 +90,10 @@
 </p>
 
 <br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/0xSneaks/0xSneaks/output/snake-neon.svg" alt="Neon snake eating the contribution graph" width="100%">
+</p>
 
 <p align="center">
   <img src="assets/footer.svg" alt="gm anon. shipping in public from NY." width="100%">
