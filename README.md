@@ -19,6 +19,10 @@
 
 <br>
 
+<p align="center">
+  <img src="assets/now-building.svg" alt="Now building: Pump Deck, pfbsfilter, Muse Park" width="100%">
+</p>
+
 <img src="assets/h-featured.svg" alt="Featured" height="44">
 
 <table>
