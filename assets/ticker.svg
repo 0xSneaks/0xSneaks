@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-label="AI agents · agent infra · solana · x402 · open source · shipping in public">
+<defs>
+<linearGradient id="e" x1="0" x2="1"><stop offset="0" stop-color="#ff3ea5"/><stop offset=".5" stop-color="#b48cff"/><stop offset="1" stop-color="#2ed3ff"/></linearGradient>
+<pattern id="sc" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".05"/></pattern>
+<clipPath id="c"><rect x="2" y="2" width="996" height="60" rx="10"/></clipPath>
+</defs>
+<style>
+text{font:900 30px 'Arial Black',Impact,'Helvetica Neue',sans-serif;letter-spacing:2px}
+.run{animation:run 18s linear infinite}@keyframes run{to{transform:translateX(-1400px)}}
+.p{fill:#ff3ea5;animation:jp 2.7s steps(1) infinite}.q{fill:#2ed3ff;animation:jq 3.3s steps(1) infinite}
+@keyframes jp{0%,100%{transform:translate(-3px,0)}20%{transform:translate(-7px,1px)}23%{transform:translate(-3px,0)}61%{transform:translate(2px,-1px)}64%{transform:translate(-3px,0)}}
+@keyframes jq{0%,100%{transform:translate(3px,0)}35%{transform:translate(8px,-1px)}38%{transform:translate(3px,0)}80%{transform:translate(-2px,1px)}83%{transform:translate(3px,0)}}
+.k{fill:#f4f4f8}
+.bar{animation:bar 4s steps(1) infinite}@keyframes bar{0%,86%,100%{opacity:0}87%{opacity:.8;transform:translateY(0)}90%{opacity:.8;transform:translateY(22px)}93%{opacity:0}}
+.pulse{animation:pu 1.4s ease-in-out infinite}@keyframes pu{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="998" height="62" rx="11" fill="#0d0d12" stroke="url(#e)" stroke-width="2"/>
+<g clip-path="url(#c)">
+<g class="run">
+<g class="p" opacity=".85"><text x="20" y="43" textLength="1340" lengthAdjust="spacingAndGlyphs">AI AGENTS • AGENT INFRA • SOLANA • x402 • OPEN SOURCE • SHIPPING IN PUBLIC •</text><text x="1420" y="43" textLength="1340" lengthAdjust="spacingAndGlyphs">AI AGENTS • AGENT INFRA • SOLANA • x402 • OPEN SOURCE • SHIPPING IN PUBLIC •</text></g>
+<g class="q" opacity=".85"><text x="20" y="43" textLength="1340" lengthAdjust="spacingAndGlyphs">AI AGENTS • AGENT INFRA • SOLANA • x402 • OPEN SOURCE • SHIPPING IN PUBLIC •</text><text x="1420" y="43" textLength="1340" lengthAdjust="spacingAndGlyphs">AI AGENTS • AGENT INFRA • SOLANA • x402 • OPEN SOURCE • SHIPPING IN PUBLIC •</text></g>
+<g class="k"><text x="20" y="43" textLength="1340" lengthAdjust="spacingAndGlyphs">AI AGENTS • AGENT INFRA • SOLANA • x402 • OPEN SOURCE • SHIPPING IN PUBLIC •</text><text x="1420" y="43" textLength="1340" lengthAdjust="spacingAndGlyphs">AI AGENTS • AGENT INFRA • SOLANA • x402 • OPEN SOURCE • SHIPPING IN PUBLIC •</text></g>
+</g>
+<rect class="bar" opacity="0" x="0" y="14" width="1000" height="5" fill="#2ed3ff"/>
+<rect class="bar" opacity="0" x="0" y="30" width="1000" height="3" fill="#ff3ea5" style="animation-delay:1.3s"/>
+<rect width="1000" height="64" fill="url(#sc)"/>
+</g>
+<circle class="pulse" cx="980" cy="14" r="5" fill="#ff3ea5"/>
+</svg>

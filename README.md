@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%" height="12">
+  <img src="assets/ticker.svg" alt="AI agents · agent infra · solana · x402 · open source · shipping in public" width="100%">
 </p>
 
 <p align="center">
@@ -91,7 +91,7 @@
 <br>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%" height="12">
+  <img src="assets/footer.svg" alt="gm anon. shipping in public from NY." width="100%">
 </p>
 
-<p align="center"><sub>gm anon · shipping in public from NY · <a href="https://github.com/0xSneaks?tab=repositories">all repositories →</a></sub></p>
+<p align="center"><sub><a href="https://github.com/0xSneaks?tab=repositories">all repositories →</a></sub></p>
