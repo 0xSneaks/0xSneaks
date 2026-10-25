@@ -20,12 +20,40 @@
 <br>
 
 <p align="center">
-  <img src="assets/now-building.svg" alt="Now building: Pump Deck, pfbsfilter, Muse Park" width="100%">
+  <img src="assets/now-building.svg" alt="Now building: Sneaks AI, 0x Sneaky Alpha, ai-coms" width="100%">
 </p>
 
 <img src="assets/h-featured.svg" alt="Featured" height="44">
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/0xSneaks/Agora">📱 Sneaks AI</a></h4>
+      A bring-your-own-key AI chat app for Android. Use your own accounts and endpoints, keep your conversations on your device — multi-provider access, agentic workflows and remote device control.
+      <br><br>
+      <sub><b>Kotlin · Android · BYOK</b></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/0xSneaks/0x-sneaky-alpha">🌐 0x Sneaky Alpha</a></h4>
+      The iPhone companion: bring-your-own-key AI chat as a PWA, no App Store needed. Pick your provider, plug in your key once — conversations and keys stay on your phone.
+      <br><br>
+      <sub><b>TypeScript · Preact · PWA</b> · <a href="https://0x-sneaky-alpha.vercel.app">live app</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/0xSneaks/ai-coms">🛰️ ai-coms</a></h4>
+      The shared message board for every AI agent working here. Agents hand off, check in and sign off against one record, so the next agent never starts blind or redoes finished work. The crew room for it is <a href="https://github.com/0xSneaks/coms-pwa">coms-pwa</a>.
+      <br><br>
+      <sub><b>Multi-agent coordination · GitHub-native</b></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/0xSneaks/inside-the-block">🔬 Inside the Block</a></h4>
+      A Solana mainnet measurement study: when one sender's transactions reach a leader in a known order, what order do they actually land in? 400/400 landed — verdict: no stable validator ordering rule.
+      <br><br>
+      <sub><b>Python · Solana · on-chain research</b></sub>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/0xSneaks/chromaspider">🕷️ ChromaSpider</a></h4>
@@ -34,38 +62,10 @@
       <sub><b>Python · FastAPI · CLI</b> · <a href="https://chromaspider.vercel.app">live demo</a></sub>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/0xSneaks/MusePark">🎲 Muse Park</a></h4>
-      A prediction market where AI agents are the participants: they propose markets, forecast, stake, resolve with signed evidence and build Brier-score reputations. Runs on the chain-agnostic Agent Market Protocol.
-      <br><br>
-      <sub><b>Protocol spec · Python reference · Solidity</b> · v0.3 draft</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h4><a href="https://github.com/0xSneaks/SUSHILOOP">🍣 SUSHILOOP</a></h4>
       A self-improving AI guardrail engine. Every 6 hours a scheduled run proposes, generates, tests and commits a new safety skill, with no human in the loop.
       <br><br>
       <sub><b>Python · Groq / Llama · GitHub Actions</b></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/0xSneaks/phantom-swarm-engine">🐝 phantom-swarm-engine</a></h4>
-      Multi-agent deliberation streamed over SSE, plus an AI Bundler: describe an agent and a crew of up to 20 agents designs a drop-in bundle of prompts, skills and configs for Claude Code, Cursor and other runtimes.
-      <br><br>
-      <sub><b>Python · OpenRouter · SSE</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/0xSneaks/phantom-skills">🧩 phantom-skills</a></h4>
-      A skill marketplace for autonomous agents. Agents browse, publish, buy and download skills, paid with x402 micropayments.
-      <br><br>
-      <sub><b>JavaScript · x402 · Postgres</b></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/0xSneaks/Cognitive-Friction-Toolkit">🧾 Cognitive-Friction Toolkit</a></h4>
-      No promises without proof. A dependency-free discipline that pairs every agent success claim with evidence and a proof state, then derives the verdict deterministically.
-      <br><br>
-      <sub><b>Python · agent ops</b></sub>
     </td>
   </tr>
 </table>
@@ -74,9 +74,14 @@
 
 <img src="assets/h-more.svg" alt="More ships" height="44">
 
+- [**coms-pwa**](https://github.com/0xSneaks/coms-pwa): Home Screen crew room for your AI agents — one console, every bot
+- [**TatterTV**](https://github.com/0xSneaks/TatterTV): your TV, minus the remote hunt — a CLI for Fire TV, Android TV, Google TV and Roku
+- [**Cognitive-Friction-Toolkit**](https://github.com/0xSneaks/Cognitive-Friction-Toolkit): no promises without proof — every agent success claim paired with evidence
+- [**phantom-swarm-engine**](https://github.com/0xSneaks/phantom-swarm-engine): multi-agent deliberation over SSE, plus an AI bundler that designs agent crews
+- [**phantom-skills**](https://github.com/0xSneaks/phantom-skills): a skill marketplace for autonomous agents, paid with x402 micropayments
 - [**phantom-pipeline**](https://github.com/0xSneaks/phantom-pipeline): idea → architecture → build → review → deploy orchestrator
+- [**Cherry Royale**](https://github.com/0xSneaks/cherry-royale-app): Cherry Slots Android shell — play credits only, live web app inside
 - [**SkillForge**](https://github.com/0xSneaks/grok-skills-marketplace): static, offline-ready marketplace for Grok & Claude skills
-- [**x402-layer**](https://github.com/0xSneaks/x402-layer): x402 USDC micropayment layer
 - [**Push Honesty Protocol**](https://github.com/0xSneaks/GitHub-Push-Honesty-Verification-Protocol): stops agents from claiming pushes that never happened
 
 <br>
