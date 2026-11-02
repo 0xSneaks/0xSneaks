@@ -62,7 +62,7 @@
       <sub><b>Python · FastAPI · CLI</b> · <a href="https://chromaspider.vercel.app">live demo</a></sub>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/0xSneaks/SUSHILOOP">🍣 SUSHILOOP</a></h4>
+      <h4><a href="https://github.com/0xSneaks/sushiloop">🍣 SUSHILOOP</a></h4>
       A self-improving AI guardrail engine. Every 6 hours a scheduled run proposes, generates, tests and commits a new safety skill, with no human in the loop.
       <br><br>
       <sub><b>Python · Groq / Llama · GitHub Actions</b></sub>
@@ -75,7 +75,7 @@
 <img src="assets/h-more.svg" alt="More ships" height="44">
 
 - [**coms-pwa**](https://github.com/0xSneaks/coms-pwa): Home Screen crew room for your AI agents — one console, every bot
-- [**TatterTV**](https://github.com/0xSneaks/TatterTV): your TV, minus the remote hunt — a CLI for Fire TV, Android TV, Google TV and Roku
+- [**TatterTV**](https://github.com/0xSneaks/tatter-tv): your TV, minus the remote hunt — a CLI for Fire TV, Android TV, Google TV and Roku
 - [**Cognitive-Friction-Toolkit**](https://github.com/0xSneaks/Cognitive-Friction-Toolkit): no promises without proof — every agent success claim paired with evidence
 - [**phantom-swarm-engine**](https://github.com/0xSneaks/phantom-swarm-engine): multi-agent deliberation over SSE, plus an AI bundler that designs agent crews
 - [**phantom-skills**](https://github.com/0xSneaks/phantom-skills): a skill marketplace for autonomous agents, paid with x402 micropayments
