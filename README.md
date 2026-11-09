@@ -18,6 +18,12 @@
   <a href="https://0xsneaks.github.io/sneaks-landing/affiliates.html"><img src="https://img.shields.io/badge/affiliates-tools%20%26%20partners-3ddc84?style=for-the-badge&labelColor=0d0d12" alt="Affiliates: tools & partners"></a>
 </p>
 
+<p align="center">
+  <i>Dev of something bigger.</i><br>
+  🍒 <b>Verified Cherry Dev</b> | EVM × AI builder.<br>
+  <i>Still one of the last golden hearts on Earth. 🖤</i>
+</p>
+
 <br>
 
 <p align="center">
