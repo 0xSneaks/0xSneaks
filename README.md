@@ -27,7 +27,7 @@
 <br>
 
 <p align="center">
-  <img src="assets/now-building.svg" alt="Now building: Sneaks AI, 0x Sneaky Alpha, ai-coms" width="100%">
+  <img src="assets/now-building.svg" alt="Now building: LordDex, PetalDeck, Zen-trade" width="100%">
 </p>
 
 <img src="assets/h-featured.svg" alt="Featured" height="44">
